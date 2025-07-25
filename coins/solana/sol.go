@@ -6,9 +6,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+
+	"github.com/gojuukaze/go-bip39"
 	associatedtokenaccount "github.com/okx/go-wallet-sdk/coins/solana/associated-token-account"
 	computebudget "github.com/okx/go-wallet-sdk/coins/solana/compute-budget"
-	"github.com/tyler-smith/go-bip39"
 
 	"github.com/okx/go-wallet-sdk/coins/solana/base"
 	"github.com/okx/go-wallet-sdk/coins/solana/system"
